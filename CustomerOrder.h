@@ -6,8 +6,6 @@
 #include <string>
 #include "Station.h"
 
-//namespace sdds
-//{
 	struct Item
 	{
 		std::string m_itemName;
@@ -36,7 +34,7 @@
 		void fillItem(Station& station, std::ostream& os);
 		void display(std::ostream& os) const;
 	};
-//}
 
 #endif
+
 
