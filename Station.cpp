@@ -1,12 +1,5 @@
-///////////////////////////////////////////////////////////////////////
-//				 Name:	Skye Bragg									 //
-//  Seneca Student ID:	107842171									 //
-//		 Seneca email:	sbragg@myseneca.ca							 //
-// Date of completion:	03/10/2020									 //
-//																	 //
-// I confirm that the content of this file is created by me,		 //
-//   with the exception of the parts provided to me by my professor. //
-///////////////////////////////////////////////////////////////////////
+//Skye H Bragg
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -14,8 +7,7 @@
 #include "Utilities.h"
 
 using namespace std;
-//namespace sdds
-//{
+
 int Station::id_generator = 1;
 size_t Station::s_widthField = 0;
 Station::Station() :s_stationID{ 0 }, s_item{ "" }, s_description{ "" }, s_serialNo{ 0 }, s_quantity{0} {}
@@ -89,4 +81,3 @@ void Station::display(std::ostream& os, bool full) const
 		os << right << "[" << setfill('0') << setw(6) << s_serialNo << "]" << endl;
 	}
 }
-//}
