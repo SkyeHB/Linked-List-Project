@@ -4,4 +4,4 @@ GPU|Memory
 Memory|SSD
 SSD|Monitor
 Monitor|WiFi
-WiFi
+WiFi|
