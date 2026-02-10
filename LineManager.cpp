@@ -1,12 +1,5 @@
-///////////////////////////////////////////////////////////////////////
-//				 Name:	Skye Bragg									 //
-//  Seneca Student ID:	107842171									 //
-//		 Seneca email:	sbragg@myseneca.ca							 //
-// Date of completion:	04/09/2020									 //
-//																	 //
-// I confirm that the content of this file is created by me,		 //
-//   with the exception of the parts provided to me by my professor. //
-///////////////////////////////////////////////////////////////////////
+//Skye H Bragg
+
 #include <iostream>
 #include <iomanip>
 #include <string>
@@ -14,8 +7,7 @@
 #include "LineManager.h"
 
 using namespace std;
-//namespace sdds
-//{
+
 LineManager::LineManager(const string& fileName, std::vector<Workstation*>& wrk, std::vector<CustomerOrder>& cstOrd) : l_cntCustomerOrder{ 0 }
 {
 	ifstream fs;
@@ -122,6 +114,7 @@ void LineManager::displayStationsSorted() const
 		ws = ws->getNextStation();
 	}
 }
-//}
+
+
 
 
