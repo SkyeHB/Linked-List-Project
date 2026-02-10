@@ -1,19 +1,11 @@
-///////////////////////////////////////////////////////////////////////
-//				 Name:	Skye Bragg									 //
-//  Seneca Student ID:	107842171									 //
-//		 Seneca email:	sbragg@myseneca.ca							 //
-// Date of completion:	03/10/2020									 //
-//																	 //
-// I confirm that the content of this file is created by me,		 //
-//   with the exception of the parts provided to me by my professor. //
-///////////////////////////////////////////////////////////////////////
+//Skye H Bragg
+
 #include <iostream>
 #include <string>
 #include "Utilities.h"
 
 using namespace std;
-//namespace sdds
-//{
+
 size_t Utilities::u_widthField = 0;
 char Utilities::u_delimiter = '\0';
 void Utilities::setFieldWidth(size_t newWidth)
@@ -54,4 +46,4 @@ char Utilities::getDelimiter()
 {
 	return u_delimiter;
 }
-//}
+
