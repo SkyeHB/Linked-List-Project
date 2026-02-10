@@ -7,8 +7,7 @@
 #include "Utilities.h"
 
 using namespace std;
-//namespace sdds
-//{ 
+
 size_t CustomerOrder::c_widthField = 0;
 CustomerOrder::CustomerOrder() : c_name{ "" }, c_product{ "" }, c_cntItem{ 0 }, c_lstItem{ nullptr } {}
 CustomerOrder::CustomerOrder(const string& rec) : c_name{ "" }, c_product{ "" }, c_cntItem{ 0 }, c_lstItem{ nullptr }
@@ -147,5 +146,5 @@ void CustomerOrder::display(ostream& os) const
 		}
 	}
 }
-//}
+
 
