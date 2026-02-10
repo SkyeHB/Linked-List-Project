@@ -1,12 +1,4 @@
-///////////////////////////////////////////////////////////////////////
-//				 Name:	Skye Bragg									 //
-//  Seneca Student ID:	107842171									 //
-//		 Seneca email:	sbragg@myseneca.ca							 //
-// Date of completion:	04/09/2020									 //
-//																	 //
-// I confirm that the content of this file is created by me,		 //
-//   with the exception of the parts provided to me by my professor. //
-///////////////////////////////////////////////////////////////////////
+//Skye H Bragg
 
 #ifndef SDDS_WORKSTATION_H__
 #define SDDS_WORKSTATION_H__
@@ -16,8 +8,6 @@
 #include "Station.h"
 #include "CustomerOrder.h"
 
-//namespace sdds
-//{
 class Workstation : public Station
 {
 	std::deque<CustomerOrder> w_orders;
@@ -37,5 +27,6 @@ public:
 	void display(std::ostream&) const;
 	Workstation& operator+=(CustomerOrder&&);
 };
-//}
+
 #endif
+
