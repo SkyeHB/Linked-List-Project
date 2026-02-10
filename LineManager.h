@@ -1,12 +1,4 @@
-///////////////////////////////////////////////////////////////////////
-//				 Name:	Skye Bragg									 //
-//  Seneca Student ID:	107842171									 //
-//		 Seneca email:	sbragg@myseneca.ca							 //
-// Date of completion:	04/09/2020									 //
-//																	 //
-// I confirm that the content of this file is created by me,		 //
-//   with the exception of the parts provided to me by my professor. //
-///////////////////////////////////////////////////////////////////////
+//Skye H Bragg
 
 #ifndef SDDS_LINEMANAGER_H__
 #define SDDS_LINEMANAGER_H__
@@ -16,8 +8,7 @@
 #include <deque>
 #include "Workstation.h"
 
-//namespace sdds
-//{
+
 class LineManager
 {
 	std::vector<Workstation*> AssemblyLine;
@@ -31,5 +22,6 @@ public:
 	void displayStations() const;
 	void displayStationsSorted() const;
 };
-//}
+
 #endif
+
